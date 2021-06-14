@@ -463,7 +463,7 @@
                 }
             }).then(response => {
                 status.innerHTML = "Thanks for your submission!";
-                console.log(status.innerHTML);
+                form.reset();
             }).catch(error => {
                 status.innerHTML = "Oops! There was a problem submitting your form";
             });
